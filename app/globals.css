@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff4d6d, #7b2ff7);
+  color: white;
+}
+
+/* center container */
+.container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* glass card */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+/* buttons */
+.btn {
+  background: linear-gradient(135deg, #ff7a18, #ff4d6d);
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* inputs */
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+  outline: none;
+}
